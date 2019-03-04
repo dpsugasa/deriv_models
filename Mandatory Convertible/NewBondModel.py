@@ -126,7 +126,7 @@ def getBond( valuation_date, maturity_date, payment_frequency, calendar, face, c
 
 def getResults(fixedRateBond):
 	
-	print fixedRateBond.NPV()
+	print (fixedRateBond.NPV())
 			
 
 
